@@ -1,8 +1,44 @@
 {
+  "author": "Scott Morgan",
+  "bugs": {
+    "url": "https://github.com/adligo/cli.ts.adligo.org/issues"
+  },
+  "description": "This project contains the tests for cli.ts.adligo.org. ",
+  "dependencies": {
+    "typescript": "^5.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.21"
+  },
+  "homepage": "https://github.com/adligo/cli_tests.ts.adligo.org",
+  "keywords": [
+    "cli",
+    "fab",
+    "javascript",
+    "typescript"
+  ],
+  "license": "Apache-2.0",
+  "name": "@ts.adligo.org/cli_tests",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/adligo/cli_tests.ts.adligo.org.git"
   },
-  "todo": "todo"
-  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adligo/cli_tests.ts.adligo.org.git"
+  },
+  "sharedNodeModuleProjectSLinkEnvVar": [
+    "CLI_NODE_MODULE_SLINK"
+  ],
+  "sharedNodeModuleProjectSLinks": [
+    "fab_group_deps.ts.adligo.org"
+  ],
+  "scripts": {
+    "build": "tsc && slink -p",
+    "tsc": "tsc"
+  },
+  "type": "module",
+  "version": "0.0.2"
+
+
 }
